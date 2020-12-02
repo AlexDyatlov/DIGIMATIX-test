@@ -1,0 +1,28 @@
+$color-text: #5101A6;
+$dark-color: #200142;
+$bg-color: #BB6BD9;
+
+@mixin f400{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin f500{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@mixin f700{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@mixin f900{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+@mixin Mont700{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
