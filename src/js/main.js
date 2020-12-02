@@ -17,6 +17,28 @@ $(function(){
     dots: true,
     prevArrow: '<button class="slider__btn slider__btn-prev"><img src="images/icons/arrow-left.svg" alt=""></button>',
     nextArrow: '<button class="slider__btn slider__btn-next"><img src="images/icons/arrow-right.svg" alt=""></button>',
+    responsive: [
+      {
+        breakpoint: 1270,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 870,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+    ]
   });
 
   const element = document.getElementById('phone');
